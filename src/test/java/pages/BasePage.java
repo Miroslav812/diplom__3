@@ -16,7 +16,7 @@ public class BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    @Step("Ожидание загрузки страницы")
+    @Step("Ожидание  загрузки страницы")
     public void waitForPageLoaded() {
         wait.until(webDriver ->
                 webDriver != null &&
